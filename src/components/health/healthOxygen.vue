@@ -1,6 +1,7 @@
 <template>
     <div class="show">
         <div ref=chart style="width: 100%; height: 100%;"></div>
+        
     </div>
   
 </template>
@@ -13,7 +14,8 @@ export default {
     name:'healthOxygen',
     setup() {
       const myChart = ref(null);
-    
+    //测试 6666
+
     // const oxygenData = ref({
     //   time: ['08:00', '08:10', '08:20', '08:30', '08:40', '08:50', '09:00', '09:10', '09:20', '09:30', '09:40', '09:50','10:00', '10:10', '10:20', '10:30', '10:40', '10:50',],
     //   saturation: [96, 95, 94, 93, 95, 96, 97,99,98,96,97,95,95, 94, 93, 95, 96, 97,]
